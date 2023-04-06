@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script>
+		function Sion(name){
+		    if (name === 'Sion'){
+		        const sound = new Audio('Sound effect Sion Ultimate (BOOM!!!).mp3');
+		        sound.play();
+		    }
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Tall Guys IT Solutions</a></h1>
+		<nav>
+			<ul>
+                <li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="contact">
+		<h2>Contact Us</h2>
+	</section>
+	<form action="mailto:tyshaw1212@gmail.com" method="post" enctype="text/plain" onsubmit="Sion(this.Name.value)">
+		Name: <input type="text" name="Name">
+		Email: <input type="text" name="Email">
+
+		<input type="submit" name="submit" value="Submit">
+	  </form>
+	<footer>
+		<p>&copy; 2023 Tall Guys IT Solutions</p>
+	</footer>
+</body>
+</html>

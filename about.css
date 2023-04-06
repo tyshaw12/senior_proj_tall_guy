@@ -1,0 +1,155 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: #fdfdfd;
+  }
+  
+  /* Header styles */
+  header {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #22725e;
+    color: #fdfdfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color: #fdfdfd;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    background-color: #7e8a8a;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #fdfdfd;
+    color: #7e8a8a;
+  }
+  
+  h2 {
+    color: #22725e;
+    background-color: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #fdfdfd;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    color: #7e8a8a;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    background-color: #fdfdfd;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #22725e;
+    color: #fdfdfd;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #7e8a8a;
+  }
+  
+  .text-box {
+    padding: 20px;
+    border: 2px solid #22725e;
+    background-color: #fdfdfd;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 250px;
+    padding: 0 10px;
+    /* Remove float:left */
+    /* float: left; */
+  }
+  
+  
+
+  #about {
+    align-content: center;
+    border: 1px solid black;
+  }

@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: #fdfdfd;
+  }
+  
+  /* Header styles */
+  header {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #22725e;
+    color: #fdfdfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color: #fdfdfd;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    background-color: #7e8a8a;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #fdfdfd;
+    color: #7e8a8a;
+  }
+  
+  h2 {
+    color: #22725e;
+    background-color: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #fdfdfd;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    color: #7e8a8a;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .project {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+  }
+
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .project h2 {
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .project p {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .project a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .project a:hover {
+    background-color: #444;
+  }
+
+  nav {
+    display: flex;
+    background-color: #7e8a8a;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #7e8a8a;
+  }
+
+  h1 a {
+
+    text-decoration: none;
+    color: #fdfdfd;
+  }
