@@ -1,11 +1,6 @@
 # Tall Guys IT Solutions
 Welcome to my portfolio website! This website showcases some of my recent projects and provides information about my skills and experience.
 
-### Table of Contents
-### Technologies Used
-### Features
-### Usage
-
 ## Technologies Used
 This website was built using HTML, CSS, and JavaScript.
 
